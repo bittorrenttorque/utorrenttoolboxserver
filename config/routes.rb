@@ -1,6 +1,7 @@
 Utorrenttoolboxserver::Application.routes.draw do
   match 'list' => 'configs#list'
   match 'create' => 'configs#create'
+  match 'applied' => 'configs#applied'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
